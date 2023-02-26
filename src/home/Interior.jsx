@@ -15,8 +15,8 @@ const SlideList = [
     {
         textPosition: 'text-center',
         category: '',
-        title: 'INTERIOR HOUSE',
-        description: 'There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration.',
+        title: 'BARCINO MEATS',
+        description: '"Bringing the Flavors of Spain to Your Doorstep - Barcino Meats"',
         buttonText: 'Contact Us',
         buttonLink: '/contact'
     }
