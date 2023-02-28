@@ -23,20 +23,41 @@ const SlideList = [
 
 const ServiceListOne = [
     {
-        icon: "icon-01.png",
-        title: 'Interior Design',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        icon: "icon-001-pork.png",
+        title: 'Pork',
+        description: 'Lorem ipsum dolor sit amet.'
     },
     {
-        icon: "icon-02.png",
-        title: 'Landcape Design',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        icon: "icon-001-pork.png",
+        title: 'Charcuterie',
+        description: 'Lorem ipsum dolor sit amet.'
     },
     {
-        icon: "icon-03.png",
-        title: 'Home Interior',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        icon: "icon-001-pork.png",
+        title: 'Beef',
+        description: 'Lorem ipsum dolor sit amet.'
     },
+    {
+        icon: "icon-001-pork.png",
+        title: 'Iberico Pork',
+        description: 'Lorem ipsum dolor sit amet.'
+    },
+    {
+        icon: "icon-001-pork.png",
+        title: 'Goat',
+        description: 'Lorem ipsum dolor sit amet.'
+    },
+    {
+        icon: "icon-001-pork.png",
+        title: 'Lamb',
+        description: 'Lorem ipsum dolor sit amet.'
+    },
+    {
+        icon: "icon-001-pork.png",
+        title: 'Mutton',
+        description: 'Lorem ipsum dolor sit amet.'
+    },
+ 
 
 ]
 
@@ -118,7 +139,7 @@ class InteriorLanding extends Component {
 
                 {/* Start Slider Area   */}
                 <div className="slider-activation slider-creative-agency" id="home">
-                    <div className="bg_image bg_image--29" data-black-overlay="4">
+                    <div className="bg_image bg_image--36" data-black-overlay="4">
                         {SlideList.map((value, index) => (
                             <div className="slide slide-style-2 slider-paralax d-flex align-items-center justify-content-center" key={index}>
                                 <div className="container">
@@ -176,19 +197,19 @@ class InteriorLanding extends Component {
                     <div className="row row--0 align-items-center">
                         <div className="col-lg-12 col-xl-6">
                             <div className="thumbnail">
-                                <img src="/assets/images/featured/featured-01.jpg" alt="Featured Images" />
+                                <img src="/assets/images/bg/bg-image-41.jpg" alt="Featured Images" />
                             </div>
                         </div>
                         <div className="col-lg-12 col-xl-6 mt_lg--50 mt_md--30 mt_sm--30">
                             <div className="content">
                                 {/* <p className="subtitle"><span>Modern</span> Design For Interior</p> */}
-                                <h2 className="fontWeight500">Barcino was born when our Directors came together in early 2022.
+                                <h2 className="fontWeight500"><br></br><br></br>Barcino was born when our Directors came together in early 2022.
                                 </h2>
                                 <p>With over 50 years of experience sourcing, buying and selling meat from Spain to the UK it was decided to pool this wealth of expertise together and form Barcino Meats Ltd</p>
 
-                                <p>    Offices in both the UK and Spain enables us to react quickly and efficiently to the demands of our Customers.</p>
+                                <p>Offices in both the UK and Spain enables us to react quickly and efficiently to the demands of our Customers.</p>
 
-                                <p>                                    Supplying daily into the UK Retail, Manufacturing and Wholesale sectors.
+                                <p>Supplying daily into the UK Retail, Manufacturing and Wholesale sectors.
                                 </p>
                                 <h2 className="fontWeight500">Leaders in innovation and Services.
                                 </h2>
