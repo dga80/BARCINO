@@ -13,9 +13,10 @@ const SlideList = [
         textPosition: 'text-center',
         category: '',
         title: 'BARCINO MEATS',
-        description: 'Importing and delivering Spains finest meats throughout the UK and Ireland',
+        description: '`Importing and delivering Spains finest meats throughout the UK and Ireland`',
         buttonText: 'Contact Us',
-        buttonLink: '/contact'
+        buttonLink: '/contact',
+     
     }
 ]
 
@@ -197,13 +198,13 @@ class InteriorLanding extends Component {
                     <div className="row row--0 align-items-center">
                         <div className="col-lg-12 col-xl-6">
                             <div className="thumbnail">
-                                <img src="/assets/images/bg/bg-image-41.jpg" alt="Featured Images" />
+                                <img src="/assets/images/bg/bg-image-41.jpg" alt="Meat Images" />
                             </div>
                         </div>
                         <div className="col-lg-12 col-xl-6 mt_lg--50 mt_md--30 mt_sm--30">
                             <div className="content">
                                 {/* <p className="subtitle"><span>Modern</span> Design For Interior</p> */}
-                                <h2 className="fontWeight500"><br></br><br></br>Barcino was born when our Directors came together in early 2022.
+                                <h2 className="fontWeight500">Barcino was born when our Directors came together in early 2022.
                                 </h2>
                                 <p>With over 50 years of experience sourcing, buying and selling meat from Spain to the UK it was decided to pool this wealth of expertise together and form Barcino Meats Ltd</p>
 
@@ -234,7 +235,7 @@ class InteriorLanding extends Component {
                             <div className="row">
                                 <div className="col-lg-8">
                                     <div className="section-title text-left mb--30">
-                                        <h2>Contact</h2>
+                                        <h4>Contact</h4>
                                         <p>Pondría mi foto y la de Jonathan y alguien mas y departamentos con teléfono de contacto etc
 
                                             <br /> Redes sociales también daremos de alta en twiter, linked in, Instagram y daremos acceso desde la web.</p>
