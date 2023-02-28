@@ -253,7 +253,10 @@
             .logo {
                 a {
                     img {
-                        height: 50px;
+                        width: 92px;
+                        height: 60px;
+                        margin: 10px;
+                    
                         &.logo-1 {
                             display: none;
                         }
