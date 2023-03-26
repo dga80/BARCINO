@@ -46,8 +46,6 @@ if (!checkRequiredFiles([paths.appHtml, paths.appIndexJs])) {
 // Generate configuration
 const config = configFactory('production');
 
-// We require that you explicitly set browsers and do not fall back to
-// browserslist defaults.
 const { checkBrowsers } = require('react-dev-utils/browsersHelper');
 checkBrowsers(paths.appPath, isInteractive)
   .then(() => {
