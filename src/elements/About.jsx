@@ -120,7 +120,6 @@ class About extends Component{
                                         <p className="designation">Sr. Web Developer</p>
                                     </div>
                                     <ul className="social-icon" >
-                                        <li><a href="https://www.facebook.com/"><FaFacebookF /></a></li>
                                         <li><a href="http://linkedin.com/"><FaLinkedinIn /></a></li>
                                         <li><a href="https://twitter.com/"><FaTwitter /></a></li>
                                     </ul>
@@ -158,7 +157,6 @@ class About extends Component{
                                         <p className="designation">Sr. Web Developer</p>
                                     </div>
                                     <ul className="social-icon" >
-                                        <li><a href="https://www.facebook.com/"><FaFacebookF /></a></li>
                                         <li><a href="http://linkedin.com/"><FaLinkedinIn /></a></li>
                                         <li><a href="https://twitter.com/"><FaTwitter /></a></li>
                                     </ul>

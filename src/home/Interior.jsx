@@ -235,14 +235,12 @@ class InteriorLanding extends Component {
                             <div className="row">
                                 <div className="col-lg-8">
                                     <div className="section-title text-left mb--30">
-                                        <h4>Contact</h4>
-                                        <p>Pondría mi foto y la de Jonathan y alguien mas y departamentos con teléfono de contacto etc
-
-                                            <br /> Redes sociales también daremos de alta en twiter, linked in, Instagram y daremos acceso desde la web.</p>
+                                        <h3>Contact</h3>
+                                        <p>Personal presentation text pending</p>
                                     </div>
                                 </div>
                             </div>
-                            <TeamOne column="col-lg-3 col-md-6 col-sm-6 col-12" teamStyle="team-style--bottom" item="2" />
+                            <TeamOne column="col-lg-3 col-md-6 col-sm-6 col-12" teamStyle="team-style--bottom" item="1" />
                         </div>
                     </div>
                 </div>

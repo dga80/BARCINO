@@ -1,23 +1,31 @@
 import React from "react";
-import { FaFacebookF , FaLinkedinIn , FaTwitter } from "react-icons/fa";
+import { FaEnvelope, FaFacebookF , FaLinkedinIn , FaTwitter, FaInstagram, FaPhoneAlt } from "react-icons/fa";
 
 let data = [
     {
         images: '01',
-        title: 'Pedro Sanz',
-        designation: 'cargo',
+        title: 'Pedro Pérez',
+        designation: 'Managing Director',
         socialNetwork: [
             {
-                icon: <FaFacebookF />,
-                url: '#'
+                icon: <FaEnvelope />,
+                url: 'mailto:pedro@barcinomeats.co.uk'
             },
             {
                 icon: <FaLinkedinIn />,
-                url: '#'
+                url: 'https://www.linkedin.com/in/pedro-perez-sanz-67b6a815/'
             },
             {
                 icon: <FaTwitter />,
                 url: '#'
+            },
+            {
+                icon: <FaInstagram />,
+                url: '#'
+            },
+            {
+                icon: <FaPhoneAlt />,
+                url: 'tel:+34681254207'
             },
         ]
     },
