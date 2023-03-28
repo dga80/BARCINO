@@ -171,7 +171,7 @@ class InteriorLanding extends Component {
                         <div className="row">
                             <div className="col-lg-8">
                                 <div className="feature-area">
-                                    <span>PRODUCTS</span>
+                                    {/* <h2>Products</h2> */}
                                     <h3 className="title mt--20 fontWeight500 lineheight--1-8">Specialising in Pork but also offering a comprehensive range of Charcuterie, Poultry, wide range of beef products, iberico pork,  Goat, Lamb and Mutton that Spain has to offer.</h3>
                                 </div>
                             </div>
@@ -208,7 +208,7 @@ class InteriorLanding extends Component {
                         <div className="col-lg-12 col-xl-6 mt_lg--50 mt_md--30 mt_sm--30">
                             <div className="content">
                                 {/* <p className="subtitle"><span>Modern</span> Design For Interior</p> */}
-                                <span>ABOUT</span>
+                                <h2 className="fontWeight700">About</h2>
                                 <h2 className="fontWeight500">Barcino was born when our Directors came together in early 2022.
                                 </h2>
                                 <p>With over 50 years of experience sourcing, buying and selling meat from Spain to the UK it was decided to pool this wealth of expertise together and form Barcino Meats Ltd</p>
@@ -240,7 +240,7 @@ class InteriorLanding extends Component {
                             <div className="row">
                                 <div className="col-lg-8">
                                     <div className="section-title text-left mt--50 mb--30">
-                                        <span>TEAM</span>
+                                        <h2>Team</h2>
                                         <p>Personal presentation text pending</p>
                                     </div>
                                 </div>
