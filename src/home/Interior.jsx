@@ -7,7 +7,7 @@ import Helmet from "../component/common/Helmet";
 import TeamOne from "../blocks/team/TeamOne";
 import { FiHeadphones } from "react-icons/fi";
 import { FiMail } from "react-icons/fi";
-import { FiMapPin } from "react-icons/fi";
+// import { FiMapPin } from "react-icons/fi";
 import ContactTwo from "../elements/contact/ContactTwo";
 
 
@@ -171,7 +171,7 @@ class InteriorLanding extends Component {
                         <div className="row">
                             <div className="col-lg-8">
                                 <div className="feature-area">
-                                    <span>BARCINO MEATS</span>
+                                    <span>PRODUCTS</span>
                                     <h3 className="title mt--20 fontWeight500 lineheight--1-8">Specialising in Pork but also offering a comprehensive range of Charcuterie, Poultry, wide range of beef products, iberico pork,  Goat, Lamb and Mutton that Spain has to offer.</h3>
                                 </div>
                             </div>
@@ -208,6 +208,7 @@ class InteriorLanding extends Component {
                         <div className="col-lg-12 col-xl-6 mt_lg--50 mt_md--30 mt_sm--30">
                             <div className="content">
                                 {/* <p className="subtitle"><span>Modern</span> Design For Interior</p> */}
+                                <span>ABOUT</span>
                                 <h2 className="fontWeight500">Barcino was born when our Directors came together in early 2022.
                                 </h2>
                                 <p>With over 50 years of experience sourcing, buying and selling meat from Spain to the UK it was decided to pool this wealth of expertise together and form Barcino Meats Ltd</p>
@@ -238,8 +239,8 @@ class InteriorLanding extends Component {
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-8">
-                                    <div className="section-title text-left mb--30">
-                                        <h3>Team</h3>
+                                    <div className="section-title text-left mt--50 mb--30">
+                                        <span>TEAM</span>
                                         <p>Personal presentation text pending</p>
                                     </div>
                                 </div>
@@ -250,7 +251,7 @@ class InteriorLanding extends Component {
                 </div>
                 {/* End Team Area  */}
                 {/* Start Breadcrump Area */}
-                 <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--17"  data-black-overlay="6" id="contact">
+                 <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--17"  data-black-overlay="2" id="contact">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
