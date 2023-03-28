@@ -5,7 +5,10 @@ import { FiChevronUp, FiX, FiMenu } from "react-icons/fi";
 import FooterTwo from "../component/footer/FooterTwo";
 import Helmet from "../component/common/Helmet";
 import TeamOne from "../blocks/team/TeamOne";
-
+import { FiHeadphones } from "react-icons/fi";
+import { FiMail } from "react-icons/fi";
+import { FiMapPin } from "react-icons/fi";
+import ContactTwo from "../elements/contact/ContactTwo";
 
 
 const SlideList = [
@@ -15,7 +18,7 @@ const SlideList = [
         title: 'BARCINO MEATS',
         description: '`Importing and delivering Spains finest meats throughout the UK and Ireland`',
         buttonText: 'Contact Us',
-        buttonLink: '/contact',
+        buttonLink: '#contact',
      
     }
 ]
@@ -119,9 +122,10 @@ class InteriorLanding extends Component {
                             <nav className="mainmenunav d-lg-block">
                                 <Scrollspy className="mainmenu" items={['home', 'service', 'about', 'team']} currentClassName="is-current" offset={-200}>
                                     <li><a href="#home">Home</a></li>
-                                    <li><a href="#service">Products</a></li>
+                                    <li><a href="/#service">Products</a></li>
                                     <li><a href="#about">About</a></li>
-                                    <li><a href="#team">Contact</a></li>
+                                    <li><a href="#team">Team</a></li>
+                                    <li><a href="#contact">Contact</a></li>
                                 </Scrollspy>
                             </nav>
 
@@ -228,14 +232,14 @@ class InteriorLanding extends Component {
                 </div>
                 {/* End Content Box  */}
 
-                {/* Start Contact Area  */}
+                {/* Start Team Area  */}
                 <div className="rn-team-wrapper pb--120 bg_color--1" id="team">
                     <div className="rn-team-area">
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-8">
                                     <div className="section-title text-left mb--30">
-                                        <h3>Contact</h3>
+                                        <h3>Team</h3>
                                         <p>Personal presentation text pending</p>
                                     </div>
                                 </div>
@@ -245,7 +249,81 @@ class InteriorLanding extends Component {
                     </div>
                 </div>
                 {/* End Team Area  */}
+                {/* Start Breadcrump Area */}
+                 <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--17"  data-black-overlay="6" id="contact">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-12">
+                                <div className="rn-page-title text-center pt--100">
+                                    {/* <h2 className="title theme-gradient">Contact With Us</h2> */}
+                                    {/* <p>Please complete the form provided or select the means of contact that you consider most appropriate for your inquiry. Feel free to choose the option that best suits your communication needs. We will be happy to answer your questions or attend to your requests in the most efficient way possible. Thanks for your interest.</p> */}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/* End Breadcrump Area */}
 
+
+
+
+                {/* Start Contact Page Area  */}
+                <div className="rn-contact-page ptb--120 bg_color--1">
+                    <ContactTwo />
+                </div>
+                {/* End Contact Page Area  */}
+                {/* Start Contact Top Area  */}
+                <div className="rn-contact-top-area ptb--120 bg_color--5">
+                    <div className="container">
+                       
+                        <div className="row">
+                            {/* Start Single Address  */}
+                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="rn-address">
+                                    <div className="icon">
+                                        <FiHeadphones />
+                                    </div>
+                                    <div className="inner">
+                                        <h4 className="title">Contact With Phone Number</h4>
+                                        <p><a href="tel:+34 681 254 207">+34 681 254 207</a></p>
+                                        <p><a href="tel:+44 07540125824">+44 07540125824</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* End Single Address  */}
+
+                            {/* Start Single Address  */}
+                            <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_mobile--50">
+                                <div className="rn-address">
+                                    <div className="icon">
+                                        <FiMail />
+                                    </div>
+                                    <div className="inner">
+                                        <h4 className="title">Email Address</h4>
+                                        <p><a href="mailto:pedro@barcinomeats.co.uk">pedro@barcinomeats.co.uk</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* End Single Address  */}
+
+                            {/* Start Single Address  */}
+                            {/* <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_md--50 mt_sm--50">
+                                <div className="rn-address">
+                                    <div className="icon">
+                                        <FiMapPin />
+                                    </div>
+                                    <div className="inner">
+                                        <h4 className="title">Location</h4>
+                                        <p>5678 Bangla Main Road, cities 580 <br /> GBnagla, example 54786</p>
+                                    </div>
+                                </div>
+                            </div> */}
+                            {/* End Single Address  */}
+
+                        </div>
+                    </div>
+                </div>
+                {/* End Contact Top Area  */}
 
                 {/* Start Footer Style  */}
                 <FooterTwo />
