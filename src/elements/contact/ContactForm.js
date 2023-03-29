@@ -3,7 +3,7 @@ import emailjs from 'emailjs-com';
 
 const Result = () => {
     return (
-        <p className="success-message">Your Message has been successfully sent. I will contact you soon.</p>
+        <p className="success-message">Your Message has been successfully sent. We will contact you soon.</p>
     )
 }
 function ContactForm({props}) {
@@ -13,10 +13,10 @@ function ContactForm({props}) {
         e.preventDefault();
         emailjs
         .sendForm(
-            'service_p4x3hv8', 
-            'template_jgfr42f', 
+            'service_yxg11nf', 
+            'template_fwv11vg', 
             e.target, 
-            'user_jrfTH2e0Ely35ZCVFdT9S'
+            'ntSRBUGfmhMCYMCCv'
         )
         .then((result) => {
             console.log(result.text);
