@@ -115,7 +115,7 @@ Slider Default Style
             min-height: 950px;
             @media #{$laptop-device} {
                 padding-top: 160px;
-                padding-bottom: 160px;
+                padding-bottom: 170px;
                 min-height: auto;
             }
             @media #{$lg-layout} {
@@ -642,7 +642,7 @@ For Slider Service
 
 .slider-paralax,
 .rn-paralax {
-    height: 950px;
+    height: 100vh;
     @media #{$sm-layout} {
         height: auto;
     }

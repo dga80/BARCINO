@@ -76,13 +76,13 @@ class Header extends Component {
                   <Link to="/">Home</Link>
                 </li>
                 <li>
-                  <Link to="/#service">Products</Link>
+                  <Link to="/service">Products</Link>
                 </li>
                 <li>
-                  <Link to="/#about">About</Link>
+                  <Link to="/about">About</Link>
                 </li>
                 <li>
-                  <Link to="/#team">Team</Link>
+                  <Link to="/team">Team</Link>
                 </li>
               </ul>
             </nav>
@@ -93,12 +93,7 @@ class Header extends Component {
                         </div> */}
             {/* Start Humberger Menu  */}
             <div className="humberger-menu d-block d-lg-none pl--20">
-              <span
-                onClick={this.menuTrigger}
-                className="menutrigger text-white"
-              >
-                <FiMenu />
-              </span>
+              <span onClick={this.menuTrigger} className="menutrigger text-white"><FiMenu /></span>
             </div>
             {/* End Humberger Menu  */}
             <div className="close-menu d-block d-lg-none">

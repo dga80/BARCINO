@@ -122,7 +122,7 @@ class InteriorLanding extends Component {
                             <nav className="mainmenunav d-lg-block">
                                 <Scrollspy className="mainmenu" items={['home', 'service', 'about', 'team']} currentClassName="is-current" offset={-200}>
                                     <li><a href="#home">Home</a></li>
-                                    <li><a href="/#service">Products</a></li>
+                                    <li><a href="#service">Products</a></li>
                                     <li><a href="#about">About</a></li>
                                     <li><a href="#team">Team</a></li>
                                     <li><a href="#contact">Contact</a></li>
